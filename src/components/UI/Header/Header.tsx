@@ -4,7 +4,7 @@ const HeaderBar = styled('header', {
   width: '100%',
   height: '10vh',
   display: 'grid',
-  gridTemplateColumns: '10% 70%',
+  gridTemplateColumns: '160px 840px',
   justifyContent: 'center',
   justifyItems: 'center'
 })
@@ -36,7 +36,8 @@ const MenuItem = styled('div', {
   alignItems: 'center',
 
   '&:hover': {
-    cursor: 'pointer'
+    cursor: 'pointer',
+    color: '#9400D3'
   }
 })
 

@@ -2,8 +2,8 @@ import { styled } from '@stitches/react'
 
 const Advertisement = styled('div', {
   width: '100%',
-  height: '50vh',
-  background: 'Gray',
+  height: '60vh',
+  background: 'LightGray',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
