@@ -6,7 +6,7 @@ export const GlobalStyles = globalCss({
     padding: 0,
     boxSizing: "border-box",
   },
-  /*   html: {
-    fontFamily: "'Barlow Semi Condensed', sans-serif;",
-  }, */
+  html: {
+    fontFamily: "'Barlow', sans-serif;",
+  },
 });
