@@ -1,20 +1,24 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import { styled } from '@stitches/react'
 import { GlobalStyles } from './styles/GlobalCss'
 
 import { Header } from './components/UI/Header/Header';
 import { AdSection } from './components/UI/AdSection/AdSection';
 import { FeaturedProducts } from './components/Home/FeaturedProducts/FeaturedProducts';
+import { RecentdProducts } from './components/Home/RecentProdutcs/RecentProdutcs';
+import { HighLightedFeatures } from './components/Home/HighLightedFeatures/HighLightedFeatures';
+import { WhatClientsSay } from './components/Home/WhatClientsSay/WhatClientsSay';
 
 function App() {
   GlobalStyles();
 
   return (
     <div className="App">
-      <Header></Header>
-      <AdSection></AdSection>
-      <FeaturedProducts></FeaturedProducts>
+      <Header/>
+      <AdSection/>
+      <FeaturedProducts/>
+      <RecentdProducts/>
+      <HighLightedFeatures/>
+      <WhatClientsSay/>
     </div>
   )
 }
