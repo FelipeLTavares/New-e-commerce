@@ -5,6 +5,7 @@ import { GlobalStyles } from './styles/GlobalCss'
 
 import { Header } from './components/UI/Header/Header';
 import { AdSection } from './components/UI/AdSection/AdSection';
+import { FeaturedProducts } from './components/Home/FeaturedProducts/FeaturedProducts';
 
 function App() {
   GlobalStyles();
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       <Header></Header>
       <AdSection></AdSection>
+      <FeaturedProducts></FeaturedProducts>
     </div>
   )
 }
