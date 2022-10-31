@@ -2,7 +2,6 @@ import { styled } from '@stitches/react'
 
 const FeaturedProductsSection = styled('div', {
   width: '1000px',
-  height: '800px',
   margin: 'auto',
   display: 'flex',
   flexDirection: 'column',
@@ -16,10 +15,10 @@ const FPSTitle = styled('h2', {
   marginTop: '70px'
 })
 
-const FPSSubtitle = styled('h3', {
+const FPSSubtitle = styled('p', {
   fontSize: '16px',
   color: 'Gray',
-  marginTop: '20px'
+  marginTop: '15px'
 })
 
 const FPSBoard = styled('div', {
